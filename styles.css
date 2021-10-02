@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --primary-color: #A31C3A;
+    --dark-gray: #4B5563;
+    --off-white: #E5E7EB;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     width: 50vw;
-    margin:auto;
+    margin: auto;
+    font-display: 'Manrope', sans-serif;
+    margin: auto;
 
 }
 
@@ -10,10 +22,49 @@ input {
     margin-bottom: 1rem;
 }
 
+main {
+    display: block;
+}
+
+#bill-amount {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+#cash-given {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 1rem;
+
+}
+
+label {
+    margin: auto;
+}
+
 button {
     padding: 0.5rem;
     width: 40%;
     margin: auto;
+}
+
+body {
+    display: block;
+    margin: auto;
+}
+
+table {
+    padding: 1rem;
+    background-color: burlywood;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+}
+
+.heading {
+    font-family: 'Press Start 2P', cursive;
+    font-size: xx-large;
+    border-bottom-left-radius: 2rem;
 }
 
 .no-of-notes {
@@ -28,7 +79,7 @@ button {
 
 .footer{
     background-color: burlywood;
-    padding: 2rem 2rem;
+    padding: 1rem;
     text-align: center;
     border-top-right-radius: 2rem;
     font-family: 'Press Start 2P', cursive;
@@ -36,7 +87,6 @@ button {
 
 .footer-heading{
     font-weight: bolder;
-    font-size: large;
 }
 
 .footer .links{
