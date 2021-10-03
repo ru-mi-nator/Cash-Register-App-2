@@ -1,7 +1,7 @@
-# Cash-Register-App-2
+# Cash-Register-Web-App
 A web app which helps you out with the minimum number of notes to be returned to the coustomer
 
-#Live Project
+# Live Project
 https://cash-rumi.netlify.app/
 
 # Technologies Used
